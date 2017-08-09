@@ -1,0 +1,4 @@
+Buyer 1 wins seller 1 with price 4.5.
+Buyer 2 wins seller 7 with price 7.0.
+Buyer 4 wins seller 2 with price 4.5.
+Buyer 5 wins seller 3 with price 6.0.
