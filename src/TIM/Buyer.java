@@ -1,3 +1,4 @@
+package TIM;
 
 public class Buyer 
 {
