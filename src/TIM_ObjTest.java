@@ -60,7 +60,7 @@ public class TIM_ObjTest {
 		TIM_Obj tim = new TIM_Obj(buyer, seller, askArray, bidArray);
 
 		tim.printResult();
-//		tim.printAll();
+		tim.printAll();
 		tim.outputResult();
 	}
 

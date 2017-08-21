@@ -37,7 +37,5 @@ public class SortArray
 			buyer[min] = buyer[i];
 			buyer[i] = temp;
 		}
-//		return buyer;
 	}
-
 }
