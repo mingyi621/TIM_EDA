@@ -18,7 +18,7 @@ public class EDA_Obj
 
 	public void EDA_Implementation()
 	{
-//		int[] randomArray = {2,4,6,0,3,5,1};
+//		int[] randomArray = {2,4,6,0,3,5,1};   // The paper's original setting.
 		int[] randomArray = SortArray.createRandomArray(seller.length);
 		System.out.print("\nThe order of the sellers: ");
 		SortArray.printArray(randomArray);
@@ -44,7 +44,7 @@ public class EDA_Obj
 					seller[s].setThePrice();
 				}
 			}
-			if(seller[s].getNumberOfNotLessThanJ() >= 1)
+			if(seller[s].getNumberOfNotLessThanJ() > 1)
 			{
 				seller[s].setHighestBid(buyer, s);
 				seller[s].setSecondHighestBid(buyer, s);
