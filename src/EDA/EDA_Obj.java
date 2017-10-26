@@ -18,8 +18,8 @@ public class EDA_Obj
 
 	public void EDA_Implementation()
 	{
-//		int[] randomArray = {2,4,6,0,3,5,1};   // The paper's original setting.
-		int[] randomArray = SortArray.createRandomArray(seller.length);
+		int[] randomArray = {2,4,6,0,3,5,1};   // The paper's original setting.  
+//		int[] randomArray = SortArray.createRandomArray(seller.length);
 		System.out.print("\nThe order of the sellers: ");
 		SortArray.printArray(randomArray);
 		for(int i = 0, s = randomArray[i]; i < seller.length ; i++, s = randomArray[i])

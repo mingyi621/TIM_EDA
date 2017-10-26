@@ -1,8 +1,8 @@
 This is the implementation of the following paper:
 
-==================================================
-A-Long Jin, Wei Song, Ping Wang, Dusit Niyato, and Peijian Ju, "Auction Mechanisms Toward Efficient Resource Sharing for Cloudlets in Mobile Cloud Computing" in "IEEE TRANSACTIONS ON SERVICES COMPUTING, VOL. 9, NO. 6, NOVEMBER/DECEMBER 2016" pp. 895-909.
-==================================================
+
+> *A-Long Jin, Wei Song, Ping Wang, Dusit Niyato, and Peijian Ju, "Auction Mechanisms Toward Efficient Resource Sharing for Cloudlets in Mobile Cloud Computing" in "IEEE TRANSACTIONS ON SERVICES COMPUTING, VOL. 9, NO. 6, NOVEMBER/DECEMBER 2016" pp. 895-909.*
+
 
 I have implemented the two algorithms, TIM and EDA, as two Java programs.
 Using the "input.txt" file to input the four variables:
